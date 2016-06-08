@@ -140,3 +140,9 @@
     is now a list of directories. Change is backward incompatible.
   - Renamed `COMPREHENSIVE_THEME_DIR` to `COMPREHENSIVE_THEME_DIRS`, `COMPREHENSIVE_THEME_DIRS` is now a list of directories.
     Change is backward incompatible.
+
+- Role: Edxapp
+  - Renamed `EDXAPP_COMPREHENSIVE_THEME_DIR` to `EDXAPP_COMPREHENSIVE_THEME_DIRS`, `EDXAPP_COMPREHENSIVE_THEME_DIRS`
+    is now a list of directories. Change is backward incompatible.
+  - Renamed `COMPREHENSIVE_THEME_DIR` to `COMPREHENSIVE_THEME_DIRS` this variable is written in lms.env.json and cms.env.json,
+   `COMPREHENSIVE_THEME_DIRS` is now a list of directories. Change is backward incompatible.
