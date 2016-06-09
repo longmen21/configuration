@@ -143,6 +143,6 @@
 
 - Role: Edxapp
   - Renamed `EDXAPP_COMPREHENSIVE_THEME_DIR` to `EDXAPP_COMPREHENSIVE_THEME_DIRS`, `EDXAPP_COMPREHENSIVE_THEME_DIRS`
-    is now a list of directories. Change is backward incompatible.
+    is now a list of directories. `EDXAPP_COMPREHENSIVE_THEME_DIR` has been deprecated so its usage should be avoided.
   - Renamed `COMPREHENSIVE_THEME_DIR` to `COMPREHENSIVE_THEME_DIRS` this variable is written in lms.env.json and cms.env.json,
-   `COMPREHENSIVE_THEME_DIRS` is now a list of directories. Change is backward incompatible.
+   `COMPREHENSIVE_THEME_DIRS` is now a list of directories.`COMPREHENSIVE_THEME_DIR` has been deprecated so its usage should be avoided.
